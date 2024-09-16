@@ -1,0 +1,73 @@
+.maincontainer{
+    display: flex;
+    height: 100vh;
+    margin: auto;
+}
+.image{ 
+    display: block;
+    height: 100vh;
+}
+.text-container{
+    height: 100vh;
+    flex:1; 
+
+ 
+
+}
+.phone-container{ 
+    display: none;
+}
+.maintext{ 
+    color: white;
+    font-size: 10vw;
+    font-family: Roboto; 
+    align-items: flex-start;
+    margin: 20px;
+    margin-top: 15%;
+    text-align: center;
+
+}
+.explanation{ 
+    color: white;
+    font-family: Roboto;
+    text-align: center;
+    font-size: 3vw;
+}
+.downloadimages{ 
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+    align-items: center;
+    flex: 1;
+    
+}
+.download-images{ 
+    height: 150px;
+}
+
+@media (max-width:800px){ 
+    .maincontainer{ 
+        display: none;
+    }
+    .phone-container{
+        display: block;
+        height: 100vh;
+        margin: auto;
+        text-align: center;
+    }
+    .maintext{
+        display: block;
+        margin: 5px;
+        width: 100vw;
+    }
+    .downloadimages{ 
+        display: block;
+        margin-top: 10px;
+    }
+    .image{
+        width: 100%;
+        object-fit: contain;
+    }
+    
+}
+
